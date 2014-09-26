@@ -1,4 +1,4 @@
-decks
+Decks
 =====
 
-Html slide decks created for Pentaho CDE
+Html slide decks for Pentaho CDE

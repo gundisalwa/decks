@@ -13,16 +13,6 @@ var exportPath = './resources/web';
  * Vendors
  */
 gulp.task('vendors', ['vendors-css', 'vendors-js']);
-gulp.task('default', ['vendors']);
-
-/**
- * Reveal
- */
-gulp.task('reveal', function () {
-  return gulp.src('bower_components/reveal.js/**/**')
-    .pipe(gulp.dest( exportPath + '/reveal.js'));
-});
-
 
 /**
  * Vendors
@@ -48,3 +38,21 @@ gulp.task('vendors-js', function () {
     .pipe(g.rename('vendors.min.js'))
     .pipe(gulp.dest( exportPath + '/js'));
 });
+
+
+/**
+ * Reveal
+ */
+gulp.task('reveal', function () {
+  return gulp.src('bower_components/reveal.js/**/**')
+    .pipe(gulp.dest( exportPath + '/reveal.js'));
+});
+/**
+ * Impress
+ */
+gulp.task('impress', function () {
+  return gulp.src('bower_components/impress.js/**/**')
+    .pipe(gulp.dest( exportPath + '/impress.js'));
+});
+
+gulp.task('default', ['reveal', 'impress']);

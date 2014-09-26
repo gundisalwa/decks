@@ -8,7 +8,7 @@ before_script:
 - ant resolve
 - npm install
 - bower install
-- gulp reveal
+- gulp
 script:
 - ant dist
 deploy:

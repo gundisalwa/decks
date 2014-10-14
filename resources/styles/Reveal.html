@@ -62,12 +62,12 @@
 
 						// Optional libraries used to extend on reveal.js
 						dependencies: [
-							{ src: '../../../api/repos/responsiveDashboards/resources/web/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-							{ src: '../../../api/repos/responsiveDashboards/resources/web/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-							{ src: '../../../api/repos/responsiveDashboards/resources/web/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-							{ src: '../../../api/repos/responsiveDashboards/resources/web/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-							{ src: '../../../api/repos/responsiveDashboards/resources/web/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-							{ src: '../../../api/repos/responsiveDashboards/resources/web/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+							{ src: '../../../api/repos/decks/resources/web/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+							{ src: '../../../api/repos/decks/resources/web/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+							{ src: '../../../api/repos/decks/resources/web/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+							{ src: '../../../api/repos/decks/resources/web/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+							{ src: '../../../api/repos/decks/resources/web/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+							{ src: '../../../api/repos/decks/resources/web/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 						]
 					},
 					config = Dashboards.getParameterValue('decksConfig') || {};

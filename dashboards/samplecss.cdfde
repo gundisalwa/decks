@@ -89,7 +89,7 @@
      },
      {
       "name": "html",
-      "value": "<div style=\"width:100%; height:100%;\">\n    <img  class=\"calm\" width=\"70%\" src=\"../../../api/repos/responsiveDashboards/resources/web/img/before.jpg\"/>\n    <img  class=\"rage\" width=\"80%\" src=\"../../../api/repos/responsiveDashboards/resources/web/img/after.jpg\"/>\n\n    \n</div> \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n ",
+      "value": "<div style=\"width:100%; height:100%;\">\n    <img  class=\"calm\" width=\"70%\" src=\"../../../api/repos/decks/resources/web/img/before.jpg\"/>\n    <img  class=\"rage\" width=\"80%\" src=\"../../../api/repos/decks/resources/web/img/after.jpg\"/>\n\n    \n</div> \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n ",
       "type": "Html"
      },
      {
@@ -198,5 +198,5 @@
    }
   ]
  },
- "filename": "/system/responsiveDashboards/dashboards/samplecss.cdfde"
+ "filename": "/system/decks/dashboards/samplecss.cdfde"
 }

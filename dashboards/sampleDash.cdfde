@@ -20,7 +20,7 @@
      },
      {
       "name": "resourceCode",
-      "value": ".hawk {\n    background: url('../../../api/repos/responsiveDashboards/resources/web/img/hawk.jpeg');\n}\n\n.hulk {\n    background: url('../../../api/repos/responsiveDashboards/resources/web/img/hulk.jpeg');\n}\n\n.tony {\n    background: url('../../../api/repos/responsiveDashboards/resources/web/img/tony.jpeg');\n}\n\n.cap {\n    background: url('../../../api/repos/responsiveDashboards/resources/web/img/cap.jpeg');\n}\n\n.thor {\n    background: url('../../../api/repos/responsiveDashboards/resources/web/img/thor.jpeg');\n}\n\n.widow {\n    background: url('../../../api/repos/responsiveDashboards/resources/web/img/widow.jpeg');\n} \n\n.avenger {\n    background-size: 100% 100%;\n    height:300px;\n} \n\n.panel{\nmargin-bottom: 20px;\n} ",
+      "value": ".hawk {\n    background: url('../../../api/repos/decks/resources/web/img/hawk.jpeg');\n}\n\n.hulk {\n    background: url('../../../api/repos/decks/resources/web/img/hulk.jpeg');\n}\n\n.tony {\n    background: url('../../../api/repos/decks/resources/web/img/tony.jpeg');\n}\n\n.cap {\n    background: url('../../../api/repos/decks/resources/web/img/cap.jpeg');\n}\n\n.thor {\n    background: url('../../../api/repos/decks/resources/web/img/thor.jpeg');\n}\n\n.widow {\n    background: url('../../../api/repos/decks/resources/web/img/widow.jpeg');\n} \n\n.avenger {\n    background-size: 100% 100%;\n    height:300px;\n} \n\n.panel{\nmargin-bottom: 20px;\n} ",
       "type": "Resource"
      }
     ]
@@ -2444,5 +2444,5 @@
    }
   ]
  },
- "filename": "/system/responsiveDashboards/dashboards/sampleDash.cdfde"
+ "filename": "/system/decks/dashboards/sampleDash.cdfde"
 }
